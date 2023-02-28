@@ -5,7 +5,6 @@ module.exports = {
             title: "Teste do mural",
             description: "Descrição teste"
         },
-    
     ],
     
     getAll(){
@@ -16,9 +15,6 @@ module.exports = {
        this.posts.push({ id:generateID(), title, description })
     },
 
-    deletePost(id){
-
-    }
 }
 
 function generateID() {
