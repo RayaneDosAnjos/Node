@@ -1,11 +1,10 @@
 module.exports = {
-         posts:[
-        {
+         posts:
+         [{
             id: "jhbugubu",
             title: "Teste do mural",
             description: "Descrição teste"
-        },
-    ],
+        }],
     
     getAll(){
         return this.posts
